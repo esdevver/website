@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<style>
+  :root {
+    font-family: sans-serif;
+  }
+  
+  .round-box {
+    border: solid black 3px;
+    border-radius: 5px;
+    /* float: left; */
+    padding: 0 15px;
+    background: wheat;
+  }
+
+  .round-box ul {
+    padding-left: 1em;
+  }
+
+  .round-box li {
+    padding-bottom: 1em;
+  }
+
+  p.center {
+    text-align: center;
+  }
+
+  body {
+    display: grid;
+    background: slateblue;
+    margin: 0;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  #postcard {
+    padding: 1.5em;
+    background: repeating-linear-gradient(-45deg,white,white 20px, tomato 20px, tomato 40px);
+    border-radius: 0.5em;
+    box-shadow: 1em 1em 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  #postcard>div {
+    padding: 1em;
+    border-radius: 0.5em;
+    background: white;
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  
+  html, body {
+    margin: 0;
+    height: 100%;
+  }
+</style>
+<title>esdevver.net</title>
+<meta property="og:site_name" content="Esdevver net">
+<meta property="og:title" content="Esdevver net - directory">
+<meta property="og:type" content="website">
+</head>
+<body>
+<div id="postcard" class="center">
+<div>
+<h1>Welcome to esdevver.net</h1>
+<p class="center">This website used to have some games on it.<br>Now it's just a directory of sorts.</p>
+<div class="round-box">
+<p class="center"><i>Check out these links!</i></p>
+<ul>
+    <li><a href="https://cleo-games.com/">Cleo games - currently under construction</a></li>
+    <li><a href="https://github.com/esdevver">My github profile</a></li>
+</ul>
+</div>
+</div>
+</div>
+</body>
+</html>
